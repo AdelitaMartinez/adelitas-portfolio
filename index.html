@@ -56,21 +56,27 @@
 
 <!--Contact Me-->
     <div>
-        <form>
+        <form class=" text-center ">
             <h1 class="text-center">Contact Me</h1>
 
             <div class="flex-wrap text-center">
                 <label id="Name">Name: </label>
-                <input type="text" name="Name">
-
-                <label id="Email">Email: </label>
-                <input type="email" name="Email">
-
-                <label for="Message">Message: </label>
-                <textarea id="Message" name="message"></textarea>
+                <input type="text" name="Name" placeholder="First and Last">
             </div>
 
-            <button type="submit">Send Message</button>
+            <div>
+                <label id="Email">Email: </label>
+                <input type="email" name="Email" placeholder="email@domain.tld">
+            </div>
+
+            <div>
+                <label for="Message">Message: </label>
+                <textarea id="Message" name="message" placeholder="Add your message here"></textarea>
+            </div>
+
+            <div>
+            <button type="submit">Submit</button>
+            </div>
 
 
         </form>
