@@ -46,38 +46,53 @@
 
 <section class="container p-7 bg-neutral-700">
     <h1 class="text-center p-2 mb-4">Skills</h1>
+
+    <div class="flex">
+    <button class="text-white hover:text-gray-300 mr-2" onclick="document.querySelector('.carousel').scrollBy({ left: -200, behavior: 'smooth' })">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+        </svg>
+    </button>
+
     <div class="carousel carousel-center h-36">
-        <div class="carousel-item">
+        <div class="carousel-item mr-4">
             <img class="mt-5 mx-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" alt="HTML logo" alt="Pizza" />
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item mr-4">
             <img class="mt-5 mx-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" alt="CSS logo"/>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item mr-4">
             <img class="mt-5 mx-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript logo"/>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item mr-4">
             <img class="mt-5 mx-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="Typescript logo" />
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item mr-4">
             <img class="mt-5 mx-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React logo" />
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item mr-4">
             <img class="mt-5 mx-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original-wordmark.svg" alt="Tailwind logo" />
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item mr-4">
             <img class="mt-5 mx-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg" alt="Next.js logo" />
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item mr-4">
             <img class="mt-5 mx-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" alt="Postgresql logo" />
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item mr-4">
             <img class="mt-5 mx-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js logo" />
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item mr-4">
             <img class="mt-5 mx-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg" alt="Git logo" />
         </div>
     </div>
+        <button class="text-white hover:text-gray-300 ml-2" onclick="document.querySelector('.carousel').scrollBy({ left: 200, behavior: 'smooth' })">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+            </svg>
+        </button>
+    </div>
+</section>
 
 
 
