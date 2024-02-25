@@ -5,46 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="output.css" rel="stylesheet">
     <title>Personal Website</title>
+
+    <style>
+        @keyframes slide-in {
+            0% {
+                opacity: 0;
+                transform: translateX(-100%);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .animate-slide-in {
+            animation: slide-in 1s ease-in-out;
+        }
+    </style>
+
 </head>
 <body>
 
 <!--Nav Bar-->
 
-
-<nav class="z-10 mx-auto">
-    <div class="flex border-solid border-black border-2 p-4 rounded-lg justify-between md:mt-2">
-        <button class="md:hidden">
-            &#9776;
-        </button>
-        <ul class="hidden md:flex space-x-2">
-            <li><a href="#skillsSection">Skills</a></li>
-            <li><a href="#projectSection">Projects</a></li>
-            <li><a href="#contactSection">Contact me</a></li>
-        </ul>
-
-        <div class="flex items-center">
-<!--            <label class="flex cursor-pointer gap-2">-->
-<!--                <span class="label-text">Current</span>-->
-<!--                <input type="checkbox" value="night" class="toggle theme-controller"/>-->
-<!--                <span class="label-text">Night</span>-->
-<!--            </label>-->
-            <a href="https://github.com/AdelitaMartinez" target="_blank"><img class=" bg-slate-50 rounded-full size-8 mx-4" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="Github icon with link" ></a>
-
-            <a href="https://www.linkedin.com/in/adelitamartinez/" target="_blank"><img class=" size-8 ml-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" alt="LinkedIn icon with link"></a>
+<div class="z-10 mx-auto flex justify-between items-center">
+    <!-- Dropdown menu -->
+    <div class="navbar-start">
+        <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a href="#skillsSection">Skills</a></li>
+                <li><a href="#projectSection">Projects</a></li>
+                <li><a href="#contactSection">Contact me</a></li>
+            </ul>
         </div>
-
     </div>
-</nav>
 
+    <div class="flex items-center mx-6">
 
-<div class="relative">
-    <img class=" hero inset-0 object-cover h-screen w-full" src="/public_html/background.portfolio.jpg" alt="Background image">
-    <div class="absolute inset-0 flex flex-col justify-center items-center text-center">
-        <h1 class="text-2xl md:text-4xl text-white">Adelita Martinez</h1>
-        <p class="text-lg md:text-xl text-gray-300">Full Stack Web Developer</p>
-        <p>I'm a passionate developer who thrives on the excitement of learning and expanding my overall knowledge. With each project, I make it my mission to embrace every opportunity to deepen my understanding and stay ahead of the curve in this ever-evolving field. I'm endlessly curious about exploring new concepts. Beyond the technical aspects, my long-term aspiration is to continue my education and make meaningful contributions to space exploration—an ambition that fuels my drive and determination every day.</p>
+        <div class="flex items-center mx-4">
+            <a href="https://github.com/AdelitaMartinez" target="_blank" class="hover:scale-110 transform transition duration-300"><img class="bg-slate-50 rounded-full mx-4 size-10 hover:bg-gray-200 transition duration-300" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="Github icon with link" ></a>
+            <a href="https://www.linkedin.com/in/adelitamartinez/" target="_blank" class="hover:scale-110 transform transition duration-300"><img class="size-10 ml-2 bg-transparent hover:bg-gray-200 transition duration-300 " src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" alt="LinkedIn icon with link"></a>
+        </div>
     </div>
 </div>
+
+
+
+
+
+<div class="relative ">
+    <img class="hero inset-0 object-cover h-screen w-full" src="/public_html/background.portfolio.jpg" alt="Background image">
+    <div class="absolute inset-0 flex flex-col items-center text-center bg-opacity-75 bg-gray-900">
+        <div class="container mx-auto px-4 mt-16 min-w-sm md:min-w-lg border border-gray-300 rounded-lg shadow-lg animate-slide-in">
+            <h1 class="text-4xl md:text-6xl text-white font-bold mb-4">Adelita Martinez</h1>
+            <p class="text-lg md:text-xl text-gray-300 mb-8 max-w-xl mx-auto">Full Stack Web Developer</p>
+            <div class="max-w-xl mx-auto">
+                <p class="text-lg md:text-xl text-gray-300 mb-4">I'm a Developer who thrives on the excitement of learning and expanding my overall knowledge. I've made it my mission to embrace every opportunity to deepen my understanding and stay ahead of the curve in this ever-evolving field. I'm endlessly curious about exploring new concepts. Beyond the technical aspects, my long-term aspiration is to continue my education and make meaningful contributions to space exploration.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 
 
 <hr>
@@ -160,7 +186,7 @@
         <div class="md:py-4 flex-grow flex flex-col space-y-8 md:justify-between">
             <div class="">
                 <h1 class="font-bold text-4xl tracking-wide">Contact Me</h1>
-                <p class="text-gray-400 text-sm pt-2">Feel free to contact me or leave a message for collaborations</p>
+                <p class="text-gray-400 text-sm pt-4">Thank you for your interest in collaborating with me on web development projects. Whether you're looking to hire for your team or explore partnership opportunities, I'm excited to hear from you! Please fill out the form below to get in touch.</p>
             </div>
             <div class="flex flex-col space-y-6">
                 <div class="inline-flex space-x-2 items-center hover:text-blue-400">
