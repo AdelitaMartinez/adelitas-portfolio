@@ -1369,12 +1369,6 @@ html {
   margin-top: 0;
 }
 
-.mockup-phone .display {
-  overflow: hidden;
-  border-radius: 40px;
-  margin-top: -25px;
-}
-
 .mockup-browser .mockup-browser-toolbar .input {
   position: relative;
   margin-left: auto;
@@ -1624,19 +1618,14 @@ html {
   margin-bottom: 1rem;
 }
 
-.my-6 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
 }
 
-.my-auto {
-  margin-top: auto;
-  margin-bottom: auto;
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .mb-3 {
@@ -1671,10 +1660,6 @@ html {
   margin-right: 1.25rem;
 }
 
-.mt-16 {
-  margin-top: 4rem;
-}
-
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -1683,28 +1668,16 @@ html {
   margin-top: 0.75rem;
 }
 
+.mt-36 {
+  margin-top: 9rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.mt-32 {
-  margin-top: 8rem;
-}
-
-.mt-36 {
-  margin-top: 9rem;
-}
-
-.ml-3 {
-  margin-left: 0.75rem;
-}
-
-.ml-5 {
-  margin-left: 1.25rem;
 }
 
 .inline-block {
@@ -1719,10 +1692,6 @@ html {
   display: inline-flex;
 }
 
-.hidden {
-  display: none;
-}
-
 .size-10 {
   width: 2.5rem;
   height: 2.5rem;
@@ -1733,19 +1702,9 @@ html {
   height: 8rem;
 }
 
-.size-44 {
-  width: 11rem;
-  height: 11rem;
-}
-
 .size-80 {
   width: 20rem;
   height: 20rem;
-}
-
-.size-40 {
-  width: 10rem;
-  height: 10rem;
 }
 
 .h-36 {
@@ -1870,18 +1829,6 @@ html {
 
 .overflow-x-scroll {
   overflow-x: scroll;
-}
-
-.text-wrap {
-  text-wrap: wrap;
-}
-
-.text-balance {
-  text-wrap: balance;
-}
-
-.text-pretty {
-  text-wrap: pretty;
 }
 
 .rounded-box {
@@ -2017,13 +1964,14 @@ html {
   padding: 2rem;
 }
 
-.p-5 {
-  padding: 1.25rem;
-}
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .px-6 {
@@ -2041,26 +1989,8 @@ html {
   padding-bottom: 1.75rem;
 }
 
-.px-7 {
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
-}
-
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
 .pt-4 {
   padding-top: 1rem;
-}
-
-.pt-9 {
-  padding-top: 2.25rem;
-}
-
-.pl-5 {
-  padding-left: 1.25rem;
 }
 
 .text-center {
@@ -2100,6 +2030,11 @@ html {
   line-height: 1.75rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2114,6 +2049,10 @@ html {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .tracking-wide {
@@ -2283,10 +2222,6 @@ html {
 
   .md\:mt-4 {
     margin-top: 1rem;
-  }
-
-  .md\:block {
-    display: block;
   }
 
   .md\:w-80 {
