@@ -1681,6 +1681,26 @@ html {
   margin-top: 1.25rem;
 }
 
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.ml-9 {
+  margin-left: 2.25rem;
+}
+
+.ml-16 {
+  margin-left: 4rem;
+}
+
+.ml-20 {
+  margin-left: 5rem;
+}
+
+.ml-24 {
+  margin-left: 6rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -1691,6 +1711,10 @@ html {
 
 .inline-flex {
   display: inline-flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .size-10 {
@@ -1706,6 +1730,26 @@ html {
 .size-80 {
   width: 20rem;
   height: 20rem;
+}
+
+.size-5 {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.size-16 {
+  width: 4rem;
+  height: 4rem;
+}
+
+.size-40 {
+  width: 10rem;
+  height: 10rem;
+}
+
+.size-44 {
+  width: 11rem;
+  height: 11rem;
 }
 
 .h-36 {
@@ -1987,6 +2031,10 @@ html {
 
 .pt-4 {
   padding-top: 1rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
 }
 
 .text-center {
