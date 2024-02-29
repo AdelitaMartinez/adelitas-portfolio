@@ -2018,10 +2018,6 @@ html {
   padding-bottom: 1.5rem;
 }
 
-.pt-4 {
-  padding-top: 1rem;
-}
-
 .pt-5 {
   padding-top: 1.25rem;
 }
@@ -2036,14 +2032,6 @@ html {
 
 .font-serif {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
-.font-sans {
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-.font-mono {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .text-2xl {
@@ -2162,49 +2150,8 @@ html {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-inner {
-  --tw-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
-  --tw-shadow-colored: inset 0 2px 4px 0 var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-blue-500\/50 {
-  --tw-shadow-color: rgb(59 130 246 / 0.5);
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-cyan-500\/50 {
-  --tw-shadow-color: rgb(6 182 212 / 0.5);
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-blue-400\/50 {
-  --tw-shadow-color: rgb(96 165 250 / 0.5);
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-blue-400\/60 {
-  --tw-shadow-color: rgb(96 165 250 / 0.6);
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-blue-300\/50 {
-  --tw-shadow-color: rgb(147 197 253 / 0.5);
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-blue-900\/50 {
-  --tw-shadow-color: rgb(30 58 138 / 0.5);
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
 .shadow-blue-600\/50 {
   --tw-shadow-color: rgb(37 99 235 / 0.5);
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-sky-600\/50 {
-  --tw-shadow-color: rgb(2 132 199 / 0.5);
   --tw-shadow: var(--tw-shadow-colored);
 }
 
